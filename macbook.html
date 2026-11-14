@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 35px 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+            transition: 0.3s;
+            border-bottom: 3px solid transparent;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-bottom-color: #e5b567;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .card-number {
+            font-size: 38px;
+            font-weight: bold;
+            color: #e5b567;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .card h3 {
+            font-size: 21px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #777;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+.card button{
+
+    width:100px;
+    height:40px;
+    background: pink;
+    color:red;
+    border-radius: 15px 20px;
+  
+}  
+</style>
+<body>
+  <div class="cards">
+
+            <!-- 1. MacBook Neo (256 GB SSD) -->
+<div class="card">
+    <div class="card-number">01</div>
+    <img src="neo.jfif" style="width: auto; height:200px; background-position: center;">
+    <h3>MacBook Neo 13</h3>
+    <p>
+        MacBook Neo 13" A18 Pro (6CPU, 5GPU) 8GB RAM, 256GB SSD<br>
+        Артикул: MHFA4
+    </p>
+    <button>подробнее</button>
+</div>
+
+
+
+
+<!-- 2. MacBook Neo (512 GB SSD) -->
+<div class="card">
+    <div class="card-number">02</div>
+    <img src="neo.jfif" style="width: auto; height:200px; background-position: center;">
+    <h3>MacBook Neo 13</h3>
+    <p>
+        MacBook Neo 13" A18 Pro (6CPU, 5GPU) 8GB RAM, 512GB SSD<br>
+        Артикул: MHFC4
+    </p>
+    <button>подробнее</button>
+</div>
+
+<!-- 3. MacBook Neo Pro / Plus (1TB SSD - 16GB RAM) -->
+<div class="card">
+    <div class="card-number">03</div>
+    <img src="NEO.jfif" style="width: auto; height:240px; background-position: center;">
+    <h3>MacBook Neo 15</h3>
+    <p>
+        MacBook Neo 15" A18 Pro (6CPU, 6GPU) 16GB RAM, 1TB SSD<br>
+        Артикул: MHFE4
+    </p>
+    <button>подробнее</button>
+</div>
+
+
+
+<!-- 1. MacBook Air M1 (2020) -->
+<div class="card">
+    <div class="card-number">04</div>
+    <img src="air2.jpg" style="width: auto; height:250px; background-position: center;">
+    <h3>MacBook Air 13" (2020)</h3>
+    <p>
+        <strong>İşlemci:</strong> Apple M1 Çip (8-Çekirdek CPU, 7/8-Çekirdek GPU)<br>
+        <strong>Yıl:</strong> 2020<br>
+        <strong>Özellikler:</strong> 8GB / 16GB RAM, 256GB / 512GB SSD
+    </p>
+    <button>подробнее</button>
+</div>
+
+<!-- 2. MacBook Air M2 (2022) -->
+<div class="card">
+    <div class="card-number">05</div>
+    <img src="air2.jpg" style="width: auto; height:250px; background-position: center;">
+    <h3>MacBook Air 13.6" (2022)</h3>
+    <p>
+        <strong>İşlemci:</strong> Apple M2 Çip (8-Çekirdek CPU, 8/10-Çekirdek GPU)<br>
+        <strong>Yıl:</strong> 2022<br>
+        <strong>Özellikler:</strong> 8GB / 16GB / 24GB RAM, 256GB / 512GB SSD
+    </p>
+    <button>подробнее</button>
+</div>
+
+<!-- 3. MacBook Air M3 (2024) -->
+<div class="card">
+    <div class="card-number">06</div>
+    <img src="air2.jpg" style="width: auto; height:250px; background-position: center;">
+    <h3>MacBook Air 13.6" (2024)</h3>
+    <p>
+        <strong>İşlemci:</strong> Apple M3 Çip (8-Çekirdek CPU, 8/10-Çekirdek GPU)<br>
+        <strong>Yıl:</strong> 2024<br>
+        <strong>Özellikler:</strong> 8GB / 16GB / 24GB RAM, 512GB / 1TB SSD
+    </p>
+    <button>подробнее</button>
+</div>
+                
+             
+ <div class="card">
+                <div class="card-number">07</div>
+                <img src="mac22-removebg-preview.png" style="width: auto; height:250px;background-position: center;">
+                <h3>MacBook pro</h3>
+                <p>
+                     MacBook Pro 13" 256gb 512gb 1TB 2TB
+                     
+                </p>
+                <button onclick="location.href='macbook.html'">подробнее</button>
+            </div>
+
+    <!-- MacBook Pro M1 -->
+    <div class="card" style="border: 1px solid hsl(0, 0%, 100%); padding: 20px; border-radius: 8px; width: 300px; text-align: center;">
+        <div class="card-number">08</div>
+        <img src="mac22-removebg-preview.png" alt="MacBook Pro M1" style="width: auto; height: 250px; background-position: center; object-fit: contain;">
+        <h3>MacBook Pro M1 (2020)</h3>
+        <p style="text-align: left; font-size: 14px;">
+            <strong>Ekran Boyutu:</strong> 13.3 inç (Retina Ekran)<br>
+            <strong>İşlemci:</strong> Apple M1 çip (8 çekirdekli CPU)<br>
+            <strong>Bellek:</strong> 8GB / 16GB birleşik bellek<br>
+            <strong>Pil Ömrü:</strong> 20 saate kadar
+        </p>
+        <button>подробнее</button>
+    </div>
+
+    <!-- MacBook Pro M2 -->
+    <div class="card" style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; width: 300px; text-align: center;">
+        <div class="card-number">09</div>
+        <img src="mac22-removebg-preview.png" alt="MacBook Pro M2" style="width: auto; height: 250px; background-position: center; object-fit: contain;">
+        <h3>MacBook Pro M2 (2022/2023)</h3>
+        <p style="text-align: left; font-size: 14px;">
+            <strong>Ekran Boyutu:</strong> 13.3 inç veya 14.2 / 16.2 inç (Pro/Max)<br>
+            <strong>İşlemci:</strong> Apple M2, M2 Pro veya M2 Max<br>
+            <strong>Bellek:</strong> 8GB - 96GB'a kadar<br>
+            <strong>Öne Çıkan:</strong> Touch Bar (13 inç modelde) ve gelişmiş performans
+        </p>
+<button>подробнее</button>
+    </div>
+
+    <!-- MacBook Pro M3 -->
+    <div class="card" style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; width: 400px; text-align: center;">
+        <div class="card-number">10</div>
+        <img src="mac22-removebg-preview.png" alt="MacBook Pro M3" style="width: auto; height: 250px; background-position: center; object-fit: contain;">
+        <h3>MacBook Pro M3 (Gelecek Nesil)</h3>
+        <p style="text-align: left; font-size: 14px;">
+            <strong>Ekran Boyutu:</strong> 14.2 inç ve 16.2 inç (Liquid Retina XDR)<br>
+            <strong>İşlemci:</strong> M3, M3 Pro veya M3 Max (3nm teknoloji)<br>
+            <strong>Bellek:</strong> 8GB - 128GB'a kadar<br>
+            <strong>Öne Çıkan:</strong> Uzay Siyahı renk seçeneği ve donanım hızlandırmalı Işın İzleme (Ray Tracing)
+        </p>
+            
+                </p>
+                <button>подробнее</button>
+        </div>
+</body>
+</html>

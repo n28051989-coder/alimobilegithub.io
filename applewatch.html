@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог Apple Watch</title>
+    <style>
+        body {
+            background-color: #f4f5f7;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 40px 0;
+            margin: 0;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            padding: 35px 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+            transition: 0.3s;
+            border-bottom: 3px solid transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-bottom-color: #e5b567;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .card-number {
+            font-size: 38px;
+            font-weight: bold;
+            color: #e5b567;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: contain;
+            margin-bottom: 15px;
+            mix-blend-mode: multiply;
+        }
+
+        .card h3 {
+            font-size: 21px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #777;
+            font-size: 15px;
+            line-height: 1.6;
+            white-space: pre-line;
+            margin-bottom: 20px;
+        }
+
+        .card button {
+            width: 120px;
+            height: 40px;
+            background: pink;
+            color: red;
+            border: none;
+            border-radius: 15px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .card button:hover {
+            background: #ffb6c1;
+        }
+
+        @media (max-width: 1200px) {
+            .cards { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .cards { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+  <div class="cards">
+
+<div class="card">
+    <div>
+        <div class="card-number">01</div>
+        <img src="Amazon_com_ Apple Watch Ultra 2 [GPS + Cellular….jfif" alt="Apple Watch Ultra 2">
+        <h3>Apple Watch Ultra 2</h3>
+        <p>Корпус: 49 мм (титан)
+Дисплей: Always-On Retina OLED (до 3000 нит)
+Процессор: S9 SiP
+Встроенная память: 64 ГБ
+Автономность: до 36 часов</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">02</div>
+        <img src="Amazon_com_ Apple Watch Series 10 [GPS + Cellular.jfif" alt="Apple Watch Series 10">
+        <h3>Apple Watch Series 10</h3>
+        <p>Корпус: 42 мм / 46 мм (алюминий или титан)
+Дисплей: Широкоугольный OLED (наибольшая площадь экрана)
+Процессор: S10 SiP
+Встроенная память: 64 ГБ
+Особенность: Самый тонкий корпус в истории</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">03</div>
+        <img src="Amazon_com_ Apple Watch Series 9 [GPS + Cellular….jfif" alt="Apple Watch Series 9">
+        <h3>Apple Watch Series 9</h3>
+        <p>Корпус: 41 мм / 45 мм (алюминий или сталь)
+Дисплей: Retina (до 2000 нит)
+Процессор: S9 SiP
+Встроенная память: 64 ГБ
+Особенность: Жест двойным касанием (Double Tap)</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">04</div>
+        <img src="Apple Watch.jfif" alt="Apple Watch SE (2-го поколения)">
+        <h3>Apple Watch SE (2-gen)</h3>
+        <p>Корпус: 40 мм / 44 мм (алюминий)
+Дисплей: Retina OLED
+Процессор: S8 SiP
+Встроенная память: 32 ГБ
+Особенность: Доступная и надежная модель</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">05</div>
+        <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-watch-ultra-1.jpg" alt="Apple Watch Ultra">
+        <h3>Apple Watch Ultra</h3>
+        <p>Корпус: 49 мм (аэрокосмический титан)
+Дисплей: Retina (до 2000 нит, сапфировое стекло)
+Процессор: S8 SiP
+Встроенная память: 32 ГБ
+Автономность: до 36 часов</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">06</div>
+        <img src="Apple Watch Series 8 [GPS 41mm] Smart Watch w_Silver Aluminum Case with White Sport Band - S_M_.jfif" alt="Apple Watch Series 8">
+        <h3>Apple Watch Series 8</h3>
+        <p>Корпус: 41 мм / 45 мм (алюминий или сталь)
+Дисплей: Always-On Retina
+Процессор: S8 SiP
+Встроенная память: 32 ГБ
+Особенность: Датчик температуры тела</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">07</div>
+        <img src="Apple Watch Series 7 (GPS + Cellular, 45MM) - Gold Stainless Steel Case with Dark Cherry Sport Band.jfif" alt="Apple Watch Series 7">
+        <h3>Apple Watch Series 7</h3>
+        <p>Корпус: 41 мм / 45 мм
+Дисплей: Always-On Retina с тонкими рамками
+Процессор: S7 SiP
+Встроенная память: 32 ГБ
+Особенность: Быстрая зарядка</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">08</div>
+        <img src="Small Waist Butterfly Buckle Watch Band For Apple Watch Series, 7 45mm _ 6&SE&5&4 44mm _ 3&2&1 42mm, 7 41mm _ 6&SE&5&4 40mm _ 3&2&1 38mm - 7 45mm _ 6&SE&5&4 44mm _ 3&2&1 42mm _ Pink.jfif" alt="Apple Watch Series 6">
+        <h3>Apple Watch Series 6</h3>
+        <p>Корпус: 40 мм / 44 мм
+Дисплей: Always-On Retina
+Процессор: S6 SiP
+Встроенная память: 32 ГБ
+Особенность: Измерение уровня кислорода в крови (SpO2)</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">09</div>
+        <img src="s1.jfif" alt="Apple Watch SE">
+        <h3>Apple Watch SE (1-gen)</h3>
+        <p>Корпус: 40 мм / 44 мм
+Дисплей: Retina OLED
+Процессор: S5 SiP
+Встроенная память: 32 ГБ
+Особенность: Отличное соотношение цены и возможностей</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">10</div>
+        <img src="Create Your Apple Watch Series 5 Style - Apple.jfif" alt="Apple Watch Series 5">
+        <h3>Apple Watch Series 5</h3>
+        <p>Корпус: 40 мм / 44 мм
+Дисплей: Всегда включенный дисплей (Always-On)
+Процессор: S5 SiP
+Встроенная память: 32 ГБ
+Особенность: Встроенный компас</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">11</div>
+        <img src="Apple Watch Series 4 gets ECG support, but there's___.jfif" alt="Apple Watch Series 4">
+        <h3>Apple Watch Series 4</h3>
+        <p>Корпус: 40 мм / 44 мм (увеличенный экран)
+Дисплей: LTPO OLED
+Процессор: S4 64-bit dual-core
+Встроенная память: 16 ГБ
+Особенность: Появление ЭКГ и падения</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">12</div>
+        <img src="33.jfif" alt="Apple Watch Series 3">
+        <h3>Apple Watch Series 3</h3>
+        <p>Корпус: 38 мм / 42 мм
+Дисплей: OLED Retina
+Процессор: S3 dual-core
+Встроенная память: 8 ГБ / 16 ГБ
+Особенность: Популярная и доступная классика</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+  </div>
+
+</body>
+</html>

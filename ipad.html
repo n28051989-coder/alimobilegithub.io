@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог iPad</title>
+    <style>
+        body {
+            background-color: #f4f5f7; /* Общий светлый фон страницы, чтобы белые карточки выделялись */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 40px 0;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            padding: 35px 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+            transition: 0.3s;
+            border-bottom: 3px solid transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-bottom-color: #e5b567;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .card-number {
+            font-size: 38px;
+            font-weight: bold;
+            color: #e5b567;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: contain;
+            margin-bottom: 15px;
+            /* Убирает белый фон у картинок и сливает их с карточкой */
+            mix-blend-mode: multiply; 
+        }
+
+        .card h3 {
+            font-size: 21px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #777;
+            font-size: 15px;
+            line-height: 1.6;
+            white-space: pre-line;
+            margin-bottom: 20px;
+        }
+
+        .card button {
+            width: 120px;
+            height: 40px;
+            background: pink;
+            color: red;
+            border: none;
+            border-radius: 15px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .card button:hover {
+            background: #ffb6c1;
+        }
+
+        @media (max-width: 1200px) {
+            .cards { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .cards { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cards">
+
+    <div class="card">
+        <div>
+            <div class="card-number">01</div>
+            <img src="m413.jfif" alt="iPad Pro 13 M4">
+            <h3>iPad Pro 13" (M4)</h3>
+            <p>Экран: 13 дюймов (Ultra Retina XDR OLED, ProMotion)
+Процессор: Apple M4
+Память: 256 ГБ / 512 ГБ / 1 ТБ / 2 ТБ
+Оперативная память: 8 ГБ / 16 ГБ RAM</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">02</div>
+            <img src="Apple - 11-inch iPad Pro M4 chip Built for Apple Intelligence Wi-Fi 512GB Opens in a new window or t.jfif" alt="iPad Pro 11 M4">
+            <h3>iPad Pro 11" (M4)</h3>
+            <p>Экран: 11 дюймов (Ultra Retina XDR OLED, ProMotion)
+Процессор: Apple M4
+Память: 256 ГБ / 512 ГБ / 1 ТБ / 2 ТБ
+Оперативная память: 8 ГБ / 16 ГБ RAM</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">03</div>
+            <img src="Tablet Apple iPad Air 2024 13_ M2 8 GB RAM 512 GB Beige.jfif" alt="iPad Air 13 M2">
+            <h3>iPad Air 13" (M2)</h3>
+            <p>Дисплей: 13 дюймов, Liquid Retina IPS, 60 Гц
+Процессор: Apple M2
+Оперативная память: 8 ГБ
+Встроенная память: 128 ГБ / 256 ГБ / 512 ГБ / 1 ТБ</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">04</div>
+            <img src="Apple iPad Air 11-inch (M2).jfif" alt="iPad Air 11 M2">
+            <h3>iPad Air 11" (M2)</h3>
+            <p>Дисплей: 11 дюймов, Liquid Retina IPS, 60 Гц
+Процессор: Apple M2
+Оперативная память: 8 ГБ
+Встроенная память: 128 ГБ / 256 ГБ / 512 ГБ / 1 ТБ</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">05</div>
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-mini-2024-1.jpg" alt="iPad mini A17 Pro">
+            <h3>iPad mini (A17 Pro)</h3>
+            <p>Дисплей: 8,3 дюйма, Liquid Retina, 60 Гц
+Процессор: A17 Pro (3-нм)
+Оперативная память: 8 ГБ
+Встроенная память: 128 ГБ / 256 ГБ / 512 ГБ</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">06</div>
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-10-2022-1.jpg" alt="iPad 10-го поколения">
+            <h3>iPad (10-го поколения)</h3>
+            <p>Дисплей: 10,9 дюйма, Liquid Retina, 60 Гц
+Процессор: A14 Bionic
+Оперативная память: 4 ГБ
+Встроенная память: 64 ГБ / 256 ГБ</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">07</div>
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-pro-129-2022-1.jpg" alt="iPad Pro 12.9 M2">
+            <h3>iPad Pro 12.9" (M2)</h3>
+            <p>Память: 128 ГБ / 256 ГБ / 512 ГБ / 1 ТБ / 2 ТБ
+Дисплей: 12,9 дюйма (Liquid Retina XDR mini-LED, 120 Гц)
+Оперативная память: 8 ГБ / 16 ГБ
+Процессор: Apple M2</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">08</div>
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-pro-11-2022-1.jpg" alt="iPad Pro 11 M2">
+            <h3>iPad Pro 11" (M2)</h3>
+            <p>Память: 128 ГБ / 256 ГБ / 512 ГБ / 1 ТБ / 2 ТБ
+Дисплей: 11 дюймов (Liquid Retina, ProMotion 120 Гц)
+Оперативная память: 8 ГБ / 16 ГБ
+Процессор: Apple M2</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">09</div>
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-air-2022-1.jpg" alt="iPad Air 5 M1">
+            <h3>iPad Air 5 (M1)</h3>
+            <p>Память: 64 ГБ / 256 ГБ
+Дисплей: 10,9 дюйма (Liquid Retina, 60 Гц)
+Оперативная память: 8 ГБ
+Процессор: Apple M1</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">10</div>
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-mini-2021-1.jpg" alt="iPad mini 6">
+            <h3>iPad mini 6</h3>
+            <p>Память: 64 ГБ / 256 ГБ
+Дисплей: 8,3 дюйма (Liquid Retina, 60 Гц)
+Оперативная память: 4 ГБ
+Процессор: A15 Bionic</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">11</div>
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-102-2021-1.jpg" alt="iPad 9-го поколения">
+            <h3>iPad (9-го поколения)</h3>
+            <p>Экран: 10,2 дюйма (Retina IPS)
+Встроенная память: 64 ГБ, 256 ГБ
+Оперативная память: 3 ГБ
+Процессор: A13 Bionic</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+    <div class="card">
+        <div>
+            <div class="card-number">12</div>
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-pro-129-2021-1.jpg" alt="iPad Pro 12.9 M1">
+            <h3>iPad Pro 12.9" (M1)</h3>
+            <p>Экран: 12,9 дюйма (Liquid Retina XDR)
+Встроенная память: 128 ГБ — 2 ТБ
+Оперативная память: 8 ГБ / 16 ГБ
+Процессор: Apple M1</p>
+        </div>
+        <button>подробнее</button>
+    </div>
+
+</div>
+
+</body>
+</html>

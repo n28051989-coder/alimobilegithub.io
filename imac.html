@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог Apple iMac</title>
+    <style>
+        body {
+            background-color: #f4f5f7;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 40px 0;
+            margin: 0;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            padding: 35px 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+            transition: 0.3s;
+            border-bottom: 3px solid transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-bottom-color: #e5b567;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .card-number {
+            font-size: 38px;
+            font-weight: bold;
+            color: #e5b567;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: contain;
+            margin-bottom: 15px;
+            mix-blend-mode: multiply;
+        }
+
+        .card h3 {
+            font-size: 21px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #777;
+            font-size: 15px;
+            line-height: 1.6;
+            white-space: pre-line;
+            margin-bottom: 20px;
+        }
+
+        .card button {
+            width: 120px;
+            height: 40px;
+            background: pink;
+            color: red;
+            border: none;
+            border-radius: 15px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .card button:hover {
+            background: #ffb6c1;
+        }
+
+        @media (max-width: 1200px) {
+            .cards { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .cards { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+  <div class="cards">
+
+<div class="card">
+    <div>
+        <div class="card-number">01</div>
+        <img src="Apple 2024 iMac All-in-One Desktop Computer with M4 chip.jfif" alt="iMac 24 (M4, 2024)">
+        <h3>iMac 24" (M4, 2024)</h3>
+        <p>Дисплей: 24" 4.5K Retina (опция нанотекстуры)
+Процессор: Apple M4 (до 10 ядер CPU / 10 ядер GPU)
+ОЗУ / SSD: от 16 ГБ / до 2 ТБ
+Камера: 12 МП Center Stage
+Особенность: Поддержка Apple Intelligence и Thunderbolt 4</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">02</div>
+        <img src="23.jfif" alt="iMac 24 (M3, 2023)">
+        <h3>iMac 24" (M3, 2023)</h3>
+        <p>Дисплей: 24" 4.5K Retina (500 нит, P3)
+Процессор: Apple M3 (8 ядер CPU / до 10 ядер GPU)
+ОЗУ / SSD: до 24 ГБ / до 2 ТБ
+Связь: Wi-Fi 6E и Bluetooth 5.3
+Особенность: Аппаратная трассировка лучей</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">03</div>
+        <img src="Apple iMac Mid 2021.jfif" alt="iMac 24 (M1, 2021)">
+        <h3>iMac 24" (M1, 2021)</h3>
+        <p>Дисплей: 24" 4.5K Retina
+Процессор: Apple M1 (8 ядер CPU / 7 или 8 ядер GPU)
+ОЗУ / SSD: до 16 ГБ / до 2 ТБ
+Корпус: Ультратонкий (11.5 мм), 7 цветов
+Особенность: Первый iMac на чипе Apple Silicon</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">04</div>
+        <img src="20.jfif" alt="iMac 27 (5K, 2020)">
+        <h3>iMac 27" Retina 5K (2020)</h3>
+        <p>Дисплей: 27" 5K Retina с True Tone
+Процессор: Intel Core i5 / i7 / i9 (10-го поколения)
+Графика: AMD Radeon Pro серии 5000
+ОЗУ / SSD: до 128 ГБ / до 8 ТБ
+Особенность: Последний 27-дюймовый iMac на Intel</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">05</div>
+        <img src="5K.jfif" alt="iMac Pro (2017)">
+        <h3>iMac Pro 27" Retina 5K</h3>
+        <p>Дисплей: 27" 5K Retina (5120×2880)
+Процессор: Intel Xeon W (от 8 до 18 ядер)
+Графика: Radeon Pro Vega 56 / 64 (до 16 ГБ)
+ОЗУ / SSD: до 256 ГБ ECC / до 4 ТБ
+Особенность: Эксклюзивный корпус Space Gray</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">06</div>
+        <img src="iMac Pro.jfif" alt="iMac 21.5 (4K, 2019)">
+        <h3>iMac 21.5" Retina 4K (2019)</h3>
+        <p>Дисплей: 21.5" 4K Retina (4096×2304)
+Процессор: Intel Core i3 / i5 / i7 (8-го поколения)
+Графика: Radeon Pro 555X / 560X / Vega 20
+ОЗУ / Накопитель: до 32 ГБ / Fusion Drive или SSD
+Особенность: Компактный корпус с 4K-экраном</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">07</div>
+        <img src="2019 Apple iMac.jfif" alt="iMac 27 (5K, 2019)">
+        <h3>iMac 27" Retina 5K (2019)</h3>
+        <p>Дисплей: 27" 5K Retina
+Процессор: Intel Core i5 / i9 (8-го и 9-го поколения)
+Графика: Radeon Pro 570X / 575X / 580X / Vega 48
+ОЗУ: до 64 ГБ (самостоятельная замена)
+Особенность: Высокая производительность для графики</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">08</div>
+        <img src="M21.jfif" alt="iMac 21.5 (2017)">
+        <h3>iMac 21.5" (2017)</h3>
+        <p>Дисплей: 21.5" Full HD (1920×1080) или 4K Retina
+Процессор: Intel Core i5 (7-го поколения)
+Графика: Intel Iris Plus 640 / Radeon Pro 555
+Порты: Появление Thunderbolt 3 (USB-C)
+Особенность: Базовая модель для офиса и учебы</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+
+
+</body>
+</html>

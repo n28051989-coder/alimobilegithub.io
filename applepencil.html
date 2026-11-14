@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог Apple Pencil</title>
+    <style>
+        body {
+            background-color: #f4f5f7;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 40px 0;
+            margin: 0;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            padding: 35px 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+            transition: 0.3s;
+            border-bottom: 3px solid transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-bottom-color: #e5b567;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .card-number {
+            font-size: 38px;
+            font-weight: bold;
+            color: #e5b567;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: contain;
+            margin-bottom: 15px;
+            mix-blend-mode: multiply;
+        }
+
+        .card h3 {
+            font-size: 21px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #777;
+            font-size: 15px;
+            line-height: 1.6;
+            white-space: pre-line;
+            margin-bottom: 20px;
+        }
+
+        .card button {
+            width: 120px;
+            height: 40px;
+            background: pink;
+            color: red;
+            border: none;
+            border-radius: 15px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .card button:hover {
+            background: #ffb6c1;
+        }
+
+        @media (max-width: 1200px) {
+            .cards { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .cards { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+  <div class="cards">
+
+<div class="card">
+    <div>
+        <div class="card-number">01</div>
+        <img src="Apple Pencil.jfif" alt="Apple Pencil Pro">
+        <h3>Apple Pencil Pro</h3>
+        <p>
+            Подключение: Магнитное (беспроводная зарядка)
+Функции: Сжатие (Squeeze), вращение (Barrel Roll), тактильный отклик
+Поиск: Поддержка Локатора (Find My)
+Совместимость: iPad Pro (M4), iPad Air (M2), iPad mini (A17 Pro)
+Особенность: Максимальный контроль для художников</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">02</div>
+        <img src="Apple Pencil USB-C - Tablet Gadgets.jfif" alt="Apple Pencil (USB-C)">
+        <h3>Apple Pencil (USB-C)</h3>
+        <p>
+            Подключение: USB-C кабель, магнитное крепление
+Функции: Наведение (Hover), чувствительность к наклону
+Зарядка: Через разъем USB-C под сдвижным колпачком
+Совместимость: Все модели iPad с портом USB-C
+Особенность: Идеально для заметок и учебы</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">03</div>
+        <img src="Amazon_com_ FRTMA Compatible Apple Pencil (2nd Generation) Silicone Case Sleeve Holder Grip + Nib___.jfif" alt="Apple Pencil (2-го поколения)">
+        <h3>Apple Pencil (2-gen)</h3>
+        <p>
+            Подключение: Магнитное (беспроводная зарядка)
+Функции: Двойное касание, нажим и наклон, наведение
+Покрытие: Матовое с плоской гранью
+Совместимость: iPad Pro (до 2022), iPad Air (4/5), iPad mini (6)
+Особенность: Бесшовная зарядка и смена инструментов</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+<div class="card">
+    <div>
+        <div class="card-number">04</div>
+        <img src="Apple Pencil.jfif" alt="Apple Pencil (1-го поколения)">
+        <h3>Apple Pencil (1-gen)</h3>
+        <p>
+            Подключение: Lightning (через адаптер для USB-C)
+Функции: Чувствительность к силе нажатия и углу наклона
+Покрытие: Глянцевое цилиндрическое
+Совместимость: Базовые модели iPad (6–10 поколения)
+Особенность: Классический стилус с высокой точностью</p>
+    </div>
+    <button>подробнее</button>
+</div>
+
+  </div>
+
+</body>
+</html>
